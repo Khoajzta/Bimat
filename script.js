@@ -12,9 +12,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         setTimeout(() => {
             message.innerHTML = "Ngủ ngon nhóaaaa 😴😴";
-            message.style.color = "while";
-            startBlinking(message);
         }, 6000);
+
+        setTimeout(() => {
+            message.innerHTML = "Anh đi ngủ đây 😴😴";
+        }, 9000);
+
+        setTimeout(() => {
+            message.innerHTML = "Bái bai";
+        }, 12000);
     });
 
     function startBlinking(element) {
